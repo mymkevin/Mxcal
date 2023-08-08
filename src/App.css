@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-image: url('./img/Marisco.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Section {
+  font-size: 40px;
+}
