@@ -86,7 +86,7 @@ class App extends React.Component {
 
         
       case 'tienda':
-        const urlTiendaEnLinea = 'http://127.0.0.1:5500/index.html'; // Reemplaza con la URL de tu tienda en línea
+        const urlTiendaEnLinea = 'https://tienda-mxcal.vercel.app'; // Reemplaza con la URL de tu tienda en línea
   const rutaCodigoQR = 'https://api.qrcode-monkey.com/tmp/f1f5b73f7dd25d58a13a8325b8be940a.svg?1691005626662'; // Reemplaza con la ruta de la imagen del código QR
 
   return (
