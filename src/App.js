@@ -10,15 +10,15 @@ class App extends React.Component {
       activeSection: 'informacion',
       favoritos: [],
       mezcales: [
-        { id: 1, nombre: 'Mezcal de Jamaica', caracteristicas: 'Descripción del Mezcal 1' },
-        { id: 2, nombre: 'Mezcal de Nanche', caracteristicas: 'Descripción del Mezcal 2' },
+        { id: 1, nombre: 'Mezcal de Jamaica', caracteristicas: 'Es agridulce y ligeramente ácido, con notas frutales y florales.' },
+        { id: 2, nombre: 'Mezcal de Nanche', caracteristicas: 'es agridulce y refrescante, con matices que recuerdan a una mezcla entre limón, piña y mango verde.' },
         { id: 3, nombre: 'Mezcal de Cafe', caracteristicas: ''},
         { id: 4, nombre: 'Mezcal de Chilate', caracteristicas: ''},
         // Agrega más mezcales según sea necesario
       ],
       platillos: [
-        { id: 1, nombre: 'Platillo 1', caracteristicas: 'Descripción del Platillo 1' },
-        { id: 2, nombre: 'Platillo 2', caracteristicas: 'Descripción del Platillo 2' },
+        { id: 1, nombre: 'Ceviche', caracteristicas: 'Se compone principalmente de trozos de pescado o mariscos crudos que se marinan en jugo de limón o lima' },
+        { id: 2, nombre: 'Filete de Pescado', caracteristicas: 'es una porción de carne de pescado deshuesada y sin piel. Tiene una textura tierna y su sabor varía según la especie de pescado.' },
         // Agrega más platillos según sea necesario
       ]
     };
